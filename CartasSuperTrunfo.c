@@ -13,7 +13,6 @@ int main(){
     float area2, pib2;
 
     //Solicitacao dos atributos carta 1
-
     printf("Cadastro dos atributos da carta 1: \n");
 
     printf("Estado de (A-H): \n");
@@ -38,7 +37,6 @@ int main(){
     scanf("%d", &pontosTuristicos1);
 
     //Solicitação dos atributos carta 2
-
     printf("\nCadastro dos atributos da carta 2: \n");
 
     printf("Estado de (A-H): \n");
@@ -63,7 +61,6 @@ int main(){
     scanf("%d", &pontosTuristicos2);
 
     //Exibição dos atributos da carta 1
-
     printf("\nCarta 1\n");
     printf("Estado: %d \n", estado1);
     printf("Código: %s \n", codigo1);
@@ -74,7 +71,6 @@ int main(){
     printf("Número de pontos turísticos: %d \n", pontosTuristicos1);
 
     //Exibição dos atributos da carta 2
-
     printf("\nCarta 2:\n");
     printf("Estado: %d \n", estado2);
     printf("Código: %s \n", codigo2);
