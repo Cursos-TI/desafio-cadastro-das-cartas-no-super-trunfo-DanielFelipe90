@@ -52,8 +52,8 @@ int main(){
     //Variáveis do cálculo da densidade populacional, PIB per capita e Super Poder
     float densidadePopulacional1 = populacao1 / area1, densidadePopulacional2 = populacao2 / area2;
     float pibPerCapita1 = (pib1 *1e9) / populacao1, pibPerCapita2 = (pib2 *1e9) / populacao2;
-    float superPoder1 = populacao1 + area1 + (pib1 *1e9) + pontosTuristicos1 + densidadePopulacional1 + pibPerCapita1;
-    float superPoder2 = populacao2 + area2 + (pib2 *1e9) + pontosTuristicos2 + densidadePopulacional2 + pibPerCapita2;
+    float superPoder1 = populacao1 + area1 + pib1 + pontosTuristicos1 + densidadePopulacional1 + pibPerCapita1;
+    float superPoder2 = populacao2 + area2 + pib2 + pontosTuristicos2 + densidadePopulacional2 + pibPerCapita2;
 
     //Comparação dos Atributos da carta 1 e carta 2
     printf("\nComparação dos atributos das cartas:\n");
