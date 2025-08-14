@@ -13,41 +13,40 @@ int main()
     int populacao2, pontosTuristicos2;
     float area2, pib2;
 
-    // Solicitacao dos atributos carta 1
-
-    printf("Cadastre os atributos da carta 1: \n");
-    printf("Digite o Estado (A-H): \n");
+    //Solicitacao dos atributos carta 1
+    printf("Cadastro dos atributos da carta 1: \n");
+    printf("Estado de (A-H): \n");
     scanf(" %c", &estado1);
-    printf("Digite o Código da Carta (ex:A01): \n");
+    printf("Código da Carta (ex:A01): \n");
     scanf("%s", codigo1);
-    printf("Digite o nome da Cidade: \n");
-    scanf("%[^\\n]", cidade1);
-    printf("Digite a População: \n");
+    printf("Nome da Cidade: \n");
+    scanf(" %49[^\n]", cidade1);
+    printf("População: \n");
     scanf("%d", &populacao1);
-    printf("Digite a Área (em km²): \n");
+    printf("Área (em km²): \n");
     scanf("%f", &area1);
-    printf("Digite o PIB (em bilhões de reais): \n");
+    printf ("PIB (em bilhões de reais): \n");
     scanf("%f", &pib1);
-    printf("Digite o número de Pontos Turísticos: \n");
+    printf("Número de pontos turísticos: \n");
     scanf("%d", &pontosTuristicos1);
 
-    // Solicitacao dos atributos carta 2
+    //Solicitação dos atributos carta 2
+    printf("\nCadastro dos atributos da carta 2: \n");
 
-    printf("\nCadastre os atributos da carta 2: \n");
-    printf("Digite o Estado de (A-H): \n");
+    printf("Estado de (A-H): \n");
     scanf(" %c", &estado2);
-    printf("Digite Código da Carta (ex: B02): \n");
+    printf("Código da carta (ex: B02): \n");
     scanf("%s", codigo2);
-    printf("Digite o nome da Cidade: \n");
-    scanf("%[^\\n]", cidade2);
-    printf("Digite a População: \n");
+    printf("Nome da cidade: \n");
+    scanf(" %49[^\n]", cidade2);
+    printf("População: \n");
     scanf("%d", &populacao2);
-    printf("Digite a Área (em km²): \n");
+    printf("Área (em km²): \n");
     scanf("%f", &area2);
-    printf("Digite o PIB (em bilhões de reais): \n");
+    printf("PIB (em bilhões de reais): \n");
     scanf("%f", &pib2);
-    printf("Digite o Número de Pontos turísticos: \n");
-    scanf("%d", &pontosTuristicos2);
+    printf("Número de pontos turísticos: \n");
+    scanf("%d", &pontosTuristicos2); 
 
     // Exibição dos atributos da carta 1
     printf("\nCarta 1\n");

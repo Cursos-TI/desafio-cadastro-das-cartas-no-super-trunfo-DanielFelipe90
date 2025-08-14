@@ -16,11 +16,11 @@ int main()
     // Solicitacao dos atributos carta 1
     printf("Cadastre os atributos da carta 1: \n");
     printf("Digite o Estado (A-H): \n");
-    scanf(" %c", &estado1);
+    scanf(" %c", estado1);
     printf("Digite o Código da Carta (ex:A01): \n");
     scanf("%s", codigo1);
     printf("Digite o nome da Cidade: \n");
-    scanf("[^\\n]", cidade1);
+    scanf(" %49[^\n]", cidade1);
     printf("Digite a População: \n");
     scanf("%d", &populacao1);
     printf("Digite a Área (em km²): \n");
@@ -33,11 +33,11 @@ int main()
     // Solicitação dos atributos carta 2
     printf("\nCadastre os atributos da carta 2: \n");
     printf("Digite o Estado de (A-H): \n");
-    scanf(" %c", &estado2);
+    scanf(" %c", estado2);
     printf("Digite Código da Carta (ex: B02): \n");
     scanf("%s", codigo2);
     printf("Digite o nome da Cidade: \n");
-    scanf("[^\\n]", cidade2);
+    scanf(" %49[^\n]", cidade2);
     printf("Digite a População: \n");
     scanf("%d", &populacao2);
     printf("Digite a Área (em km²): \n");
