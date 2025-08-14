@@ -5,14 +5,12 @@ int main()
 
     // Variáveis Atributos da carta 1
     char estado1, codigo1[4], cidade1[50];
-    int pontosTuristicos1;
-    unsigned long int populacao1;
+    int pontosTuristicos1,populacao1;
     float area1, pib1, densidadePopulacional1, pibPerCapita1;
 
     // Variáveis Atributos da carta 2
     char estado2, codigo2[4], cidade2[50];
-    int pontosTuristicos2;
-    unsigned long int populacao2;
+    int pontosTuristicos2,populacao2;
     float area2, pib2, densidadePopulacional2, pibPerCapita2;
 
     // Solicitacao dos atributos carta 1
