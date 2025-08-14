@@ -6,13 +6,13 @@ int main(){
     char estado1, codigo1[4], cidade1[50];
     int pontosTuristicos1;
     unsigned long int populacao1;
-    float area1, pib1, densidadePopulacional1, pibPerCapita1, superPoder1;
+    float area1, pib1;
 
     //Atributos carta 2
     char estado2, codigo2[4], cidade2[50];
     int pontosTuristicos2;
     unsigned long int populacao2;
-    float area2, pib2, densidadePopulacional2, pibPerCapita2, superPoder2;
+    float area2, pib2;
 
     //Solicitacao dos atributos carta 1
     printf("Cadastro dos atributos da carta 1: \n");
@@ -48,6 +48,12 @@ int main(){
     scanf("%f", &pib2);
     printf("Número de pontos turísticos: \n");
     scanf("%d", &pontosTuristicos2); 
+
+    //Variáveis do cálculo da densidade populacional, PIB per capita e Super Poder
+    float densidadePopulacional1 = populacao1 / area1, densidadePopulacional2 = populacao2 / area2;
+    float pibPerCapita1 = pib1 / populacao1, pibPerCapita2 = pib2 / populacao2;
+    float superPoder1 = populacao1 + area1 + pib1 + pontosTuristicos1 + densidadePopulacional1 + pibPerCapita1;
+    float superPoder2 = populacao2 + area2 + pib2 + pontosTuristicos2 + densidadePopulacional2 + pibPerCapita2;
 
     //Comparação dos Atributos da carta 1 e carta 2
     printf("\nComparação dos atributos das cartas:\n");
